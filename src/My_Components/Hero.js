@@ -43,7 +43,7 @@ export default function Hero() {
           </button>
         </div>
         <div className='col-lg-6 mx-auto' id='profile'>
-          <img src={my} id='myImage' />
+          <img src={my} id='myImage' className='img-fluid' alt='Responsive image'/>
         </div>
       </div>
     </div>
