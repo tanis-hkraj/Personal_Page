@@ -8,7 +8,7 @@ export default function Header() {
     <div>
       <nav className="navbar navbar-expand-lg" id="nava">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/" id="logo">
+          <Link className="navbar-brand" to="/Personal_Page" id="logo">
             Tanishk Raj
           </Link>
           <button
@@ -25,7 +25,7 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/" id="navLink">
+                <Link className="nav-link active" aria-current="page" to="/Personal_Page" id="navLink">
                   Home
                 </Link>
               </li>
