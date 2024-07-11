@@ -34,13 +34,13 @@ export default function Header() {
                   About
                 </Link>
                 <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/education">Education</Link></li>
-                  <li><Link className="dropdown-item" to="/skills">Skills</Link></li>
-                  <li><Link className="dropdown-item" to="/certifications">Certifications</Link></li>
+                  <li><Link className="dropdown-item" to="/Personal_Page/education">Education</Link></li>
+                  <li><Link className="dropdown-item" to="/Personal_Page/skills">Skills</Link></li>
+                  <li><Link className="dropdown-item" to="/Personal_Page/certifications">Certifications</Link></li>
                 </ul>
               </div>
               <li className="nav-item">
-                <Link className="nav-link" to="/projects" id="navLink">
+                <Link className="nav-link" to="/Personal_Page/projects" id="navLink">
                   Projects
                 </Link>
               </li>

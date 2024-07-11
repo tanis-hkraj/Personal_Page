@@ -20,10 +20,10 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/Personal_Page' element={<Hero/>}/>
-        <Route path='/education' element={<Education/>}/>
-        <Route path='/skills' element={<Skills/>}/>
-        <Route path='/projects' element={<Project/>}/>
-        <Route path='/certifications' element={<Ceritifications/>}/>
+        <Route path='/Personal_Page/education' element={<Education/>}/>
+        <Route path='/Personal_Page/skills' element={<Skills/>}/>
+        <Route path='/Personal_Page/projects' element={<Project/>}/>
+        <Route path='/Personal_Page/certifications' element={<Ceritifications/>}/>
       </Routes>
       <Footer/>
     </Router>
