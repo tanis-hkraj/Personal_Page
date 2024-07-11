@@ -1,0 +1,25 @@
+/* src/Footer.css */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* height: 60px; Adjust the height as needed */
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    line-height: 40px; /* Vertically center the text */
+    margin-top: 3%;
+  }
+  .butlink button{
+    margin-top: 13%;
+    margin-bottom: 13%;
+    width: 200px;
+  }
+  .elements{
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+  .send{
+    margin-top: 2%;
+  }
+  

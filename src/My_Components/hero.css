@@ -1,0 +1,52 @@
+#myImage{
+    height:60vh;
+    border-radius: 30px;
+    animation: popUp 2.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+}
+@keyframes popUp {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    70% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+#HeroRow{
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+#summary{
+    color: aliceblue;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    
+}
+#summary h1{
+    font-size: 2.2rem;
+
+}
+#spanele{
+    color:rgba(55, 132, 200) ;
+}
+.resume{
+    color: aliceblue;
+    border-color: aliceblue;
+    background-color: rgb(19, 42, 111);
+    border-width: 5px;
+    border-radius: 10px;
+    font-size:1.3rem;
+    width:200px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.hero{
+    max-height:120vh;
+}
+
+  

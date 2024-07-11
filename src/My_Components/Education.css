@@ -1,0 +1,33 @@
+.educate{
+    color: rgb(255, 238, 238);
+    margin-top: 2.5%;
+}
+.educate img{
+    padding: 50px 50px 20px 50px;
+    height:50vh;
+    width: auto;
+}
+.educate .card{
+    box-shadow: 0 0 20px rgba(255, 255, 255);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 3% 5% 7% 5%;
+    
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.educate .card:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+}
+

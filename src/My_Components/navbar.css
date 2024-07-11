@@ -1,0 +1,30 @@
+#nava{
+    background: rgba(55, 132, 200, 0.3);
+    align-content: right;
+}
+#nava ul{
+    margin-right: 15%;
+}
+#logo{
+    font-size: 1.7rem;
+    padding-left: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-left: 7%;
+}
+#navLink{
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+    padding-right: 13px;
+    font-size:1.1rem;
+    transition: color 0.5s ease, padding 0.5s ease;
+    margin-right: 35px;
+    cursor: pointer;
+}
+#navLink:hover {
+    color: #2E8A99;
+    padding-right: 25px;
+    border-radius: 5px;
+  }

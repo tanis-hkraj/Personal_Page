@@ -1,0 +1,20 @@
+.skills img{
+    padding: 20px 20px 20px 20px;
+    height:50vh;
+    width: auto;
+}
+.skills .card{
+    box-shadow: 0 0 20px rgba(255, 255, 255);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 3% 5% 7% 5%;
+}
+.skills h1{
+    color: aliceblue;
+    margin: 2.5% 0 1.5% 0;
+}
+.card-body{
+    text-align: center;
+}
