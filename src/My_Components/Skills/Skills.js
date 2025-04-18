@@ -14,6 +14,10 @@ import bootstrap from '../images/bootstrap.png';
 import javascript from '../images/javascript.png';
 import lambda from '../images/lambda.png';
 import cloudfront from '../images/cloudfront.png';
+import git from '../images/git.avif'
+import mysql from '../images/mysql.png'
+import docker from '../images/Docker.avif'
+import jenkins from '../images/jenkins.png'
 
 const skillsData = [
   {
@@ -50,6 +54,26 @@ const skillsData = [
     title: 'Bootstrap',
     imgSrc: bootstrap,
     description: 'Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.'
+  },
+  {
+    title: 'Git/GitHub',
+    imgSrc: git,
+    description: 'Git is a distributed version control system that helps track changes in source code during software development, while GitHub is a cloud-based platform that hosts Git repositories and enables collaboration among developers.'
+  },
+  {
+    title: 'Docker',
+    imgSrc: docker,
+    description: 'Docker is a platform that enables developers to build, package, and run applications in lightweight, portable containers, ensuring consistency across different environments.'
+  },
+  {
+    title: 'MySQL',
+    imgSrc: mysql,
+    description: 'MySQL is an open-source relational database management system (RDBMS) that stores and manages data using structured query language (SQL), commonly used for web applications and data-driven software.'
+  },
+  {
+    title: 'Jenkins',
+    imgSrc: jenkins,
+    description: 'Jenkins is an open-source automation server used to build, test, and deploy software through continuous integration and continuous delivery (CI/CD) pipelines.'
   },
   {
     title: 'Elastic Compute Cloud (EC2)',
@@ -151,7 +175,7 @@ export default function BasicPopover() {
       </div>
 
       <div className='row skills'>
-        <h1>Cloud Computing with AWS: </h1>
+        <h1>Additional Skills: </h1>
         {skillsData.slice(7).map((skill, index) => (
           <div className='col-lg-3' key={index + 7}>
             <div className="card">
