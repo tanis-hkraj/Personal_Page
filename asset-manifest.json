@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal_Page/static/css/main.89fa8678.css",
-    "main.js": "/Personal_Page/static/js/main.5d096094.js",
+    "main.js": "/Personal_Page/static/js/main.0df67b2d.js",
     "static/js/453.41811d64.chunk.js": "/Personal_Page/static/js/453.41811d64.chunk.js",
     "static/media/internMl.jpg": "/Personal_Page/static/media/internMl.db10b125aabba2dc20e3.jpg",
     "static/media/glad.png": "/Personal_Page/static/media/glad.fcc476bd4bbc77902707.png",
@@ -10,6 +10,8 @@
     "static/media/prompt.jpg": "/Personal_Page/static/media/prompt.d35cb8929243726c285e.jpg",
     "static/media/codeai.jpg": "/Personal_Page/static/media/codeai.b2d9044fcdd99b15d40a.jpg",
     "static/media/llm.jpg": "/Personal_Page/static/media/llm.ff3b5803f0a7a860a10f.jpg",
+    "static/media/medicoz.png": "/Personal_Page/static/media/medicoz.c158a8ad7bd22400e17a.png",
+    "static/media/hate.png": "/Personal_Page/static/media/hate.67da816665e31a06e9d8.png",
     "static/media/certi.png": "/Personal_Page/static/media/certi.9d1e638cc005b142c749.png",
     "static/media/aifoundations.jpg": "/Personal_Page/static/media/aifoundations.b4cdb8fbdead70dc4fb6.jpg",
     "static/media/appliedml.jpg": "/Personal_Page/static/media/appliedml.f81dda1a9881d1a55fd2.jpg",
@@ -34,11 +36,11 @@
     "static/media/git.avif": "/Personal_Page/static/media/git.370531119ee0d8af1176.avif",
     "index.html": "/Personal_Page/index.html",
     "main.89fa8678.css.map": "/Personal_Page/static/css/main.89fa8678.css.map",
-    "main.5d096094.js.map": "/Personal_Page/static/js/main.5d096094.js.map",
+    "main.0df67b2d.js.map": "/Personal_Page/static/js/main.0df67b2d.js.map",
     "453.41811d64.chunk.js.map": "/Personal_Page/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89fa8678.css",
-    "static/js/main.5d096094.js"
+    "static/js/main.0df67b2d.js"
   ]
 }
