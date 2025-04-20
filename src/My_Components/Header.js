@@ -37,6 +37,7 @@ export default function Header() {
                   <li><Link className="dropdown-item" to="/Personal_Page/education">Education</Link></li>
                   <li><Link className="dropdown-item" to="/Personal_Page/skills">Skills</Link></li>
                   <li><Link className="dropdown-item" to="/Personal_Page/certifications">Certifications</Link></li>
+                  <li><Link className="dropdown-item" to="/Personal_Page/achievements">Achievements</Link></li>
                 </ul>
               </div>
               <li className="nav-item">

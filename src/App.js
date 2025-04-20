@@ -12,6 +12,7 @@ import Footer from './My_Components/Footer';
 import Education from './My_Components/Education';
 import Skills from './My_Components/Skills/Skills';
 import {Project} from './components/Project.js';
+import {Achievement} from './components/Achievement.js';
 import Ceritifications from './My_Components/Ceritifications.js';
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/Personal_Page/skills' element={<Skills/>}/>
         <Route path='/Personal_Page/projects' element={<Project/>}/>
         <Route path='/Personal_Page/certifications' element={<Ceritifications/>}/>
+        <Route path='/Personal_Page/achievements' element={<Achievement/>}/>
       </Routes>
       <Footer/>
     </Router>
