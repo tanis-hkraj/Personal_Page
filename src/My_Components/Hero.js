@@ -38,6 +38,7 @@ export default function Hero() {
             <br />
             <span ref={el} id='spanele' />
           </h1>
+          <p>B.Tech Computer Science student at <strong>Lovely Professional University</strong>, specializing in <strong>Machine Learning, Artificial Intelligence, and Front-End Development</strong>. I focus on building intelligent, user-friendly applications and have a strong foundation in <strong>ML models and web technologies</strong>. I'm dedicated to continuously learning and applying emerging tech to real-world challenges.  I love creating impactful, user-friendly projects.<strong> Always learning. Always building.</strong></p>
           <button onClick={onButtonClick} className='resume'>
             Resume &nbsp;<i class='fa-solid fa-download'></i>
           </button>

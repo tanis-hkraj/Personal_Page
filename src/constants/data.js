@@ -1,4 +1,6 @@
-
+import img1 from '../My_Components/Certificates/medicoz.png'
+import img2 from '../My_Components/Certificates/cart.png'
+import img3 from '../My_Components/Certificates/hate.png'
 export const properties = [
     {
       id: 1,
@@ -51,6 +53,39 @@ export const properties = [
       description:
         "My first website which I developed as team in my first semester where I learnt how to work in team and how exciting could be web development. I learnt about different html tags and css properties which gave my motivation a boost to learn more about web development.",
       numBedroom: "https://tanis-hkraj.github.io/Sports-Club/project.html",
+      
+    },
+    {
+      id: 6,
+      imageUrl:
+        img1,
+      price: "Medicoz: AI Website",
+      address: "Created Using: React.js, Flask, APIs, ML with Python",
+      description:
+        "Created a web app for diagnosing psychological and physical diseases and recommending nearby specialist doctors. Used fuzzy logic (5 levels) for psychological and ML models for physical disease prediction. Handled ML pipeline and deployed using GitHub and Git. Integrated a chatbot for user support.",
+      numBedroom: "https://medicoz-medwithai.web.app/",
+      
+    },
+    {
+      id: 7,
+      imageUrl:
+        img2,
+      price: "Cart-Pole Balancing Bot",
+      address: "Created Using: ML with Python ( Reinforcement Learning )",
+      description:
+        "Developed a Cart-Pole Balancing Bot using reinforcement learning to maintain balance by adjusting the cart’s position. Implemented Q-Learning (QN) and OpenAI Gym environment to train the model for optimal stability and control.Created a web app for diagnosing psychological and physical diseases and recommending nearby specialist doctors. Used fuzzy logic (5 levels) for psychological and ML models for physical disease prediction. Handled ML pipeline and deployed using GitHub and Git. Integrated a chatbot for user support.",
+      numBedroom: "https://github.com/tanis-hkraj/CartPole-Balancing-Bot",
+      
+    },
+    {
+      id: 8,
+      imageUrl:
+        img3,
+      price: "Emotion, Violence and Hate Speech Detection",
+      address: "Created Using: Spacy, TensorFlow, NLTK",
+      description:
+        "Built an NLP-based model for detecting hate speech, emotional tone, and violent intent by analyzing and classifying text according to sentiment and purpose. Applied machine learning and deep learning methods to detect toxic content and strengthen content moderation capabilities.",
+      numBedroom: "https://github.com/tanis-hkraj/Emotion-Hate-and-Violence-Detection-in-Speech",
       
     },
   ];
