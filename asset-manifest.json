@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal_Page/static/css/main.80f86e67.css",
-    "main.js": "/Personal_Page/static/js/main.0df67b2d.js",
+    "main.js": "/Personal_Page/static/js/main.96f83a07.js",
     "static/js/453.41811d64.chunk.js": "/Personal_Page/static/js/453.41811d64.chunk.js",
     "static/media/internMl.jpg": "/Personal_Page/static/media/internMl.db10b125aabba2dc20e3.jpg",
     "static/media/glad.png": "/Personal_Page/static/media/glad.fcc476bd4bbc77902707.png",
@@ -14,9 +14,12 @@
     "static/media/hate.png": "/Personal_Page/static/media/hate.67da816665e31a06e9d8.png",
     "static/media/certi.png": "/Personal_Page/static/media/certi.9d1e638cc005b142c749.png",
     "static/media/aifoundations.jpg": "/Personal_Page/static/media/aifoundations.b4cdb8fbdead70dc4fb6.jpg",
+    "static/media/conti.jpg": "/Personal_Page/static/media/conti.aaf386bee1345f8cec25.jpg",
     "static/media/appliedml.jpg": "/Personal_Page/static/media/appliedml.f81dda1a9881d1a55fd2.jpg",
     "static/media/hack.jpg": "/Personal_Page/static/media/hack.31e62d1eb8b3f88fea14.jpg",
     "static/media/Resume.pdf": "/Personal_Page/static/media/Resume.b3ee55d88d5367493686.pdf",
+    "static/media/teamwork.jpg": "/Personal_Page/static/media/teamwork.27bb35db3295d4b9fbb1.jpg",
+    "static/media/resi.png": "/Personal_Page/static/media/resi.8b814eddbb2fa2543b10.png",
     "static/media/dps.png": "/Personal_Page/static/media/dps.a1c2960c1d853c0ff5bd.png",
     "static/media/my.jpeg": "/Personal_Page/static/media/my.3f0ad33185cfdc474a6e.jpeg",
     "static/media/bharat.png": "/Personal_Page/static/media/bharat.60c1d1ae79bd1e99b4f6.png",
@@ -36,11 +39,11 @@
     "static/media/git.avif": "/Personal_Page/static/media/git.370531119ee0d8af1176.avif",
     "index.html": "/Personal_Page/index.html",
     "main.80f86e67.css.map": "/Personal_Page/static/css/main.80f86e67.css.map",
-    "main.0df67b2d.js.map": "/Personal_Page/static/js/main.0df67b2d.js.map",
+    "main.96f83a07.js.map": "/Personal_Page/static/js/main.96f83a07.js.map",
     "453.41811d64.chunk.js.map": "/Personal_Page/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80f86e67.css",
-    "static/js/main.0df67b2d.js"
+    "static/js/main.96f83a07.js"
   ]
 }
