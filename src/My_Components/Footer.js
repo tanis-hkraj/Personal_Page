@@ -76,8 +76,10 @@ export default function Footer() {
                         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name='message' required></textarea>
                     </div>
                     <button type="submit" className="btn btn-light send">Send</button>
+                    
                 </form>
                 </div>
+                <p className="web">+91 6204860311 tanishkraj70@gmail.com</p>
                 <p className="web">Tanishk Raj. @ Lovely Professional University</p>
             </div>
         </div>

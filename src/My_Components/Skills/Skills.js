@@ -18,6 +18,10 @@ import git from '../images/git.avif'
 import mysql from '../images/mysql.png'
 import docker from '../images/Docker.avif'
 import jenkins from '../images/jenkins.png'
+import team from '../images/teamwork.jpg'
+import adapt from '../images/adapt.jpeg'
+import resi from '../images/resi.png'
+import conti from '../images/conti.jpg'
 
 const skillsData = [
   {
@@ -94,7 +98,27 @@ const skillsData = [
     title: 'Amazon Lambda Service',
     imgSrc: lambda,
     description: 'AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes.'
-  }
+  },
+  {
+    title: 'Teamwork',
+    imgSrc: team,
+    description: 'I enjoy working in a team where everyone brings something unique to the table. I make it a point to support my teammates and ensure we all move forward together.'
+  },
+  {
+    title: 'Adaptable',
+    imgSrc: adapt,
+    description: 'I am quick to adapt to new tools, technologies, and project needs. Whether its learning a new framework or handling unexpected challenges, I stay flexible and focused.'
+  },
+  {
+    title: 'Resilience',
+    imgSrc: resi,
+    description: 'I don’t get discouraged by setbacks. If something doesn’t work out, I take it as a learning experience, adjust my approach, and come back stronger.'
+  },
+  {
+    title: 'Continuos Learning',
+    imgSrc: conti,
+    description: 'I am naturally curious and always exploring new things—be it a new framework, AI tool, or an optimization method. I believe learning is a never-ending journey, and I love every bit of it.'
+  },
 ];
 
 export default function BasicPopover() {
@@ -176,7 +200,7 @@ export default function BasicPopover() {
 
       <div className='row skills'>
         <h1>Additional Skills: </h1>
-        {skillsData.slice(7).map((skill, index) => (
+        {skillsData.slice(7,15).map((skill, index) => (
           <div className='col-lg-3' key={index + 7}>
             <div className="card">
               <img src={skill.imgSrc} className="card-img-top" alt={skill.title} />
@@ -193,6 +217,37 @@ export default function BasicPopover() {
                   open={Boolean(anchorEls[index + 7])}
                   anchorEl={anchorEls[index + 7]}
                   onClose={() => handleClose(index + 7)}
+                  anchorOrigin={{
+                    vertical: 'bottom',
+                    horizontal: 'left',
+                  }}
+                >
+                  <Typography sx={{ p: 2 }}>{skill.description}</Typography>
+                </Popover>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className='row skills'>
+        <h1>Soft Skills: </h1>
+        {skillsData.slice(15).map((skill, index) => (
+          <div className='col-lg-3' key={index + 15}>
+            <div className="card">
+              <img src={skill.imgSrc} className="card-img-top" alt={skill.title} />
+              <div className="card-body">
+                <Button
+                  aria-describedby={`simple-popover-${index + 15}`}
+                  variant="contained"
+                  onClick={(event) => handleClick(event, index + 15)}
+                >
+                  {skill.title}
+                </Button>
+                <Popover
+                  id={`simple-popover-${index + 15}`}
+                  open={Boolean(anchorEls[index + 15])}
+                  anchorEl={anchorEls[index + 15]}
+                  onClose={() => handleClose(index + 15)}
                   anchorOrigin={{
                     vertical: 'bottom',
                     horizontal: 'left',
